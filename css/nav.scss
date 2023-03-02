@@ -1,0 +1,80 @@
+.top-nav{
+    background-color: #042438;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+  }
+  
+  #logo{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 20px 10px 0px;
+    display: flex;
+  }
+  
+  nav {
+    overflow: hidden;
+    font-family: Arial;
+    margin-right: 2em;
+  }
+  
+  nav a {
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 23px 40px;
+    text-decoration: none;
+    
+    &:hover{
+      color: #ff5400;
+      cursor: pointer;
+    }
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 23px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color: #ff5400;
+    cursor: pointer;
+  }

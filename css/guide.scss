@@ -1,0 +1,136 @@
+body{
+    background-color: #032b43;
+}
+
+#title{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+}
+
+.steps {
+    color: #fff;
+    width: 35em;
+    text-align: justify;
+
+.line{
+    position: absolute;
+    top: 7em;
+    left: 50em;
+    height: 55em;
+    width: 2px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto 0;
+
+    }
+}
+
+.step-one, .step-two, .step-three{
+    line-height: 2em;
+
+    #steps{
+        padding-bottom: 1em;
+    }
+}
+
+.step-one {
+    position: relative;
+    top: 7em;
+    left: 6em;
+
+    .cone{
+        position: relative;
+        left: 42em;
+        bottom: 8em;
+    }
+}
+
+.step-two {
+    position: relative;
+    top: 9em;
+    right: -55em;
+
+    .ctwo{
+        position: relative;
+        left: -7em;
+        bottom: 7em;
+    }
+}
+
+.step-three {
+    position: relative;
+    top: 9em;
+    left: 6em;
+
+    .cthree{
+        position: relative;
+        left: 42em;
+        bottom: 6em;
+    }
+}
+
+.circle{
+    width: 4em;
+    height: 4em;
+    background-color: #ff5400;
+    border-radius: 100%;
+    position: relative;
+}
+
+.one{
+    left: 48em;
+    bottom: 3em;
+}
+
+
+#faq{
+    margin-top: 10em;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+}
+
+
+.faq{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 5em 5em;
+
+}
+.accordion {
+    background-color: #fffefe;
+    border: 1px solid #032b43;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #faf7f6e5; 
+  }
+  
+  .panel {
+    padding: 1em 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+  }

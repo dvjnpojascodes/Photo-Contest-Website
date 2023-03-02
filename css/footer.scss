@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding:  1em 0;
+    background-color: #042438;
+    color: #fff;
+}
+
+.nav-links {
+    text-align: left;
+
+    p{
+        padding-bottom: 1em;
+        font-size: 3em;
+    }
+
+    a{
+        margin-right: 4em;
+
+        &:hover{
+            color: #ff5400;
+            cursor: pointer;
+        }
+    }
+}
+
+.socials{
+    padding-top: 2em;
+    
+    p{
+        padding-top: 0.8em;
+    }
+}
