@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+  background-color: #042438;
+  color: #fff;
+}
+
+.nav-links {
+  text-align: left;
+}
+.nav-links p {
+  padding-bottom: 1em;
+  font-size: 3em;
+}
+.nav-links a {
+  margin-right: 4em;
+}
+.nav-links a:hover {
+  color: #ff5400;
+  cursor: pointer;
+}
+
+.socials {
+  padding-top: 2em;
+}
+.socials p {
+  padding-top: 0.8em;
+}/*# sourceMappingURL=footer.css.map */

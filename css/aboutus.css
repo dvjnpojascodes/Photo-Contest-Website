@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+}
+
+.description, .pic {
+  width: 50%;
+}
+
+.pic {
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.description {
+  margin-left: 55%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#titles {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 2em;
+  text-align: justify;
+}/*# sourceMappingURL=aboutus.css.map */

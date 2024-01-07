@@ -1,0 +1,73 @@
+body {
+  background-color: #032b43;
+}
+
+.signup-form {
+  padding: 12px 0 25px;
+  width: 35em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4em auto 1em;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 1em 0 0.2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35em;
+  padding: 2em;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.signup {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #ff5400;
+  border: 1px solid #ff5400;
+  text-align: center;
+  width: 27.5em;
+}
+.signup:hover {
+  cursor: pointer;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+p {
+  color: #b90505;
+}/*# sourceMappingURL=signup.css.map */

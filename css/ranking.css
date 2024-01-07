@@ -1,0 +1,93 @@
+body {
+  background-color: #032b43;
+}
+
+#title {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-bottom: 0.5em;
+}
+
+#description {
+  color: #fff;
+  padding: 2em 15em 1em;
+  text-align: center;
+  margin-bottom: 3em;
+  font-weight: 300;
+}
+
+.winners-container {
+  display: flex;
+  margin: 0 2em;
+}
+
+.div-1, .div-2 {
+  padding: 0 1em;
+  text-align: center;
+}
+.div-1 img, .div-2 img {
+  width: 28em;
+  height: 20em;
+}
+.div-1 p, .div-2 p {
+  color: #fff;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 25em;
+}
+.div-1 #title, .div-2 #title {
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0 2em;
+}
+
+.div-2 p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.div-ranks {
+  background-color: #fff;
+  padding: 1em;
+  display: flex;
+  margin: 0em 3em 2em;
+  border-radius: 5px;
+}
+.div-ranks .rank p {
+  font-size: 30px;
+  color: #ff5400;
+  font-weight: 700;
+  margin: 0 45px 0 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+.div-ranks .rank #word {
+  font-size: 20px;
+  padding-top: 45px;
+}
+.div-ranks .rank .details {
+  text-align: center;
+}
+.div-ranks .details {
+  text-align: center;
+}
+.div-ranks .details #name {
+  color: #032b43;
+  font-size: 30px;
+  padding-bottom: 4px;
+}
+.div-ranks .details p {
+  width: 95%;
+  line-height: 2em;
+}
+.div-ranks img {
+  width: 40em;
+  height: 12em;
+}/*# sourceMappingURL=ranking.css.map */
